@@ -1,0 +1,77 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7fafc;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+input.input-field {
+  border: 2px solid #4cca90;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.checkbox {
+  margin-right: 8px;
+}
+
+.submit-btn {
+  background: #4cca90;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #2f855a;
+}
+
+/* Dark mode styles */
+body.dark-mode .form-container {
+  background-color: #2d3748;
+  color: #e2e8f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .input-field {
+  border: 1px solid #4a5568;
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+body.dark-mode .checkbox-container {
+  color: #e2e8f0;
+}
+
+body.dark-mode .submit-btn {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: white;
+  transition: background-position 0.4s ease, background-size 0.4s ease;
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+}
+
+body.dark-mode .submit-btn:hover {
+  background-position: 100% 50%;
+  background-size: 200% 200%;
+}

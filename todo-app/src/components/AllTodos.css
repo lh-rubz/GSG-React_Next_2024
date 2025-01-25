@@ -1,0 +1,136 @@
+
+.all-todos-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgba(224, 218, 218, 0.082);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 32px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+   
+  }
+  
+ 
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #38b2ac;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #319795;
+  }
+  
+  /* Todo item container styling */
+  .todo-item-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-item-container:hover {
+    background-color: #f7fafc;
+  }
+  
+
+  .todo-item-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #cbd5e0;
+  }
+  
+  .urgent {
+    color: #e53e3e;
+    font-weight: bold;
+  }
+  
+  
+  .todo-data-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7fafc;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .todo-data-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .count {
+    font-weight: bold;
+    color: #2d3748;
+  }
+  
+  
+  .delete-btn {
+    background: none;
+    border: none;
+    }
+  
+  .delete-btn:active{
+   border-color: transparent;
+border: none;
+  }
+  
+
+  @media (max-width: 768px) {
+    .all-todos-container {
+      padding: 12px;
+    }
+  
+    .input-field {
+      width: 100%;
+    }
+  
+    .submit-btn {
+      width: 100%;
+    }
+  }
+  
