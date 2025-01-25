@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Boogaloo&family=Just+Another+Hand&family=Mochiy+Pop+One&family=Sigmar+One&family=Titan+One&display=swap");
+.footer {
+  text-align: center;
+  color: #e91e63;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-family: "Boogaloo", serif;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #e91e63;
+  transform: scale(1.1);
+}
+
+.social-icon-svg {
+  width: 25px;
+  height: 25px;
+}
