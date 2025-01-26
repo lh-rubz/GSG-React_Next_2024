@@ -1,0 +1,49 @@
+.absents-filter {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 120px;
+}
+
+.filter-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.filter-input {
+  padding: 10px;
+  transform: translateX(-8%);
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+.filter-input:focus {
+  border-color: #3498db;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.absents-filter:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.filter-input::placeholder {
+  color: #888;
+}
